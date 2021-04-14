@@ -6,3 +6,70 @@ Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif; */
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+header nav ul {
+    text-align: right;
+    padding-right: 3%;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 3%;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #202020;
+}
+header article {
+    /* width: 40%;
+    height: 50vh; */
+    /* display: inline-block;
+    margin-left: 7%; */
+    font-family: 'Merriweather', serif;
+
+}
+header div {
+    display: inline-block;
+    margin-left: 8%;
+
+}
+header div:nth-child(1) {
+    width: 40%;
+    margin-bottom: 50px;
+   
+}
+header div:nth-child(2) {
+    width: 30%;
+}
+header div:nth-of-type(2) img {
+    height: 70vh;
+}
+header div:nth-child(1) article {
+    padding-bottom: 60%;
+}
+
+/* Main */
+Main section:nth-of-type(1) {
+    background: url(../img/illustration2.png) left / 30% no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+Main section:nth-of-type(1) div {
+    width: 40%;
+    display: inline-block;
+}
+Main section:nth-of-type(1) div:nth-of-type(1) {
+    
+   
+    margin-left: 20%;
+}
+Main section:nth-of-type(1) div:nth-of-type(2) {
+    margin-left: 10%;
+    margin-top: -30%;
+}
